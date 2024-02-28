@@ -96,7 +96,7 @@ footer div {
 
 footer p {
   margin: 0px;
-  color: yellow;
+  color: white;
 }
 
 footer div img {
@@ -107,6 +107,42 @@ footer div img {
     height: auto;
 }
 
-.footer-imag{
-  width: ;
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for screens smaller than 768px */
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero_image img,
+  .hero_content img,
+  .motors {
+    width: 100%;
+  }
+
+  .hero_content {
+    padding: 20px;
+  }
+
+  #logo {
+    width: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  footer div {
+    align-items: center;
+  }
+
+  .footer-imag img {
+    width: 20px;
+  }
 }
